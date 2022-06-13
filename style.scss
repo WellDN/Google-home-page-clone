@@ -1,0 +1,14 @@
+$--colors-white: (255,255,255);
+* {
+box-sizing: border-box;
+}
+body {
+font-family: Lato, sans-serif;
+margin: 0px;
+background-color: $--colors-white;
+-webkit-font-smoothing: antialised;
+height: 100%;
+}
+div {
+display: block;
+}
