@@ -1,13 +1,15 @@
-$--colors-white: (255,255,255);
+$--colors-black: #202124;
+$--colors-white: rgb(255,255,255);
 * {
 box-sizing: border-box;
 }
 body {
-font-family: Lato, sans-serif;
+font-family: arial, sans-serif;
 margin: 0px;
-background-color: $--colors-white;
+background-color: $--colors-black;
 -webkit-font-smoothing: antialised;
 height: 100%;
+font-size: 14px;
 }
 div {
 display: block;
@@ -21,4 +23,43 @@ display: block;
     display: flex;
     align-items: center;
     padding: 6px;
+}
+.topgroup {
+    
+}
+.textgroup {
+    color: $--colors-white;
+}
+.gml .imgs {
+
+}
+.gml {
+    cursor: pointer;
+
+}
+.imgs {
+    cursor: pointer;
+}
+.topicons {
+
+}
+.square {
+
+}
+.squareicon {
+    color: $--colors-white;
+    fill: currentColor;
+    padding: 8px;
+    height: 30px;
+    cursor: pointer;
+}
+.topicon {
+
+}
+.wicon {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
 }

@@ -4,11 +4,12 @@
 }
 
 body {
-  font-family: Lato, sans-serif;
+  font-family: arial, sans-serif;
   margin: 0px;
-  background-color: 255, 255, 255;
+  background-color: #202124;
   -webkit-font-smoothing: antialised;
   height: 100%;
+  font-size: 14px;
 }
 
 div {
@@ -34,5 +35,33 @@ div {
       -ms-flex-align: center;
           align-items: center;
   padding: 6px;
+}
+
+.textgroup {
+  color: white;
+}
+
+.gml {
+  cursor: pointer;
+}
+
+.imgs {
+  cursor: pointer;
+}
+
+.squareicon {
+  color: white;
+  fill: currentColor;
+  padding: 8px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.wicon {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 0;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
