@@ -1,18 +1,18 @@
 $--colors-black: #202124;
 $--colors-white: rgb(255,255,255);
 * {
-box-sizing: border-box;
+    box-sizing: border-box;
 }
 body {
-font-family: arial, sans-serif;
-margin: 0px;
-background-color: $--colors-black;
--webkit-font-smoothing: antialised;
-height: 100%;
-font-size: 14px;
+    font-family: arial, sans-serif;
+    margin: 0px;
+    background-color: $--colors-black;
+    -webkit-font-smoothing: antialised;
+    height: 100%;
+    font-size: 14px;
 }
 div {
-display: block;
+    display: block;
 }
 .layout {
     display: flex;
@@ -25,36 +25,44 @@ display: block;
     padding: 6px;
 }
 .topgroup {
-    
+    font-size: 7px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 22px;
 }
 .textgroup {
     color: $--colors-white;
-}
-.gml .imgs {
-
+    width: 13%;
 }
 .gml {
     cursor: pointer;
-
+    padding-left: 3px;
 }
 .imgs {
     cursor: pointer;
+    padding-left: 9px;
 }
 .topicons {
-
+    display: inline-block;
+    width: 10%;
 }
 .square {
-
+    padding: 5px;
+    display: inline-block;
+    padding-right: 8px;
+    height: 20px;
 }
 .squareicon {
     color: $--colors-white;
     fill: currentColor;
-    padding: 8px;
-    height: 30px;
     cursor: pointer;
+    height: 14px;
 }
 .topicon {
-
+    padding: 4px;
+    display: inline-block;
 }
 .wicon {
     width: 18px;
@@ -62,4 +70,17 @@ display: block;
     border-radius: 50%;
     border: 0;
     cursor: pointer;
+    vertical-align: bottom;
+}
+.middlelayout {
+
+}
+.centraltitle {
+
+}
+.gglogo {
+
+}
+.searchbar {
+    
 }

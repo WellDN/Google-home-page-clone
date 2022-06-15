@@ -37,24 +37,58 @@ div {
   padding: 6px;
 }
 
+.topgroup {
+  font-size: 7px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 22px;
+}
+
 .textgroup {
   color: white;
+  width: 13%;
 }
 
 .gml {
   cursor: pointer;
+  padding-left: 3px;
 }
 
 .imgs {
   cursor: pointer;
+  padding-left: 9px;
+}
+
+.topicons {
+  display: inline-block;
+  width: 10%;
+}
+
+.square {
+  padding: 5px;
+  display: inline-block;
+  padding-right: 8px;
+  height: 20px;
 }
 
 .squareicon {
   color: white;
   fill: currentColor;
-  padding: 8px;
-  height: 30px;
   cursor: pointer;
+  height: 14px;
+}
+
+.topicon {
+  padding: 4px;
+  display: inline-block;
 }
 
 .wicon {
@@ -63,5 +97,6 @@ div {
   border-radius: 50%;
   border: 0;
   cursor: pointer;
+  vertical-align: bottom;
 }
 /*# sourceMappingURL=style.css.map */
