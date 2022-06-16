@@ -1,3 +1,6 @@
+$--colors-grey-brighter: #9aa0a6;
+$--colors-grey-darker: rgb(68, 68, 68);
+$--colors-grey: #595c60;
 $--colors-black: #202124;
 $--colors-white: rgb(255,255,255);
 * {
@@ -13,6 +16,9 @@ body {
 }
 div {
     display: block;
+}
+img {
+    height: 53px;
 }
 .layout {
     display: flex;
@@ -30,7 +36,7 @@ div {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 22px;
+    height: 19px;
 }
 .textgroup {
     color: $--colors-white;
@@ -73,14 +79,60 @@ div {
     vertical-align: bottom;
 }
 .middlelayout {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 .centraltitle {
-
+    max-height: 92px;
+    position: relative;
+    margin-top: 21%;
 }
-.gglogo {
-
+//.gglogo {
+    
+.stackedlayout {
+    min-height: 88px;
+    padding-top: 11px;
+    margin-left: 115px;
+    margin-right: 115px;
 }
 .searchbar {
-    
+    display: flex;
+    border: 1px solid $--colors-grey-darker;
+    height: 27px;
+    border-radius: 30px;
+}
+.search {
+    display: flex;
+    width: 30px;
+    padding-left: 8px;
+    padding-top: 6px;
+}
+.searchicon {
+    color: $--colors-grey-brighter;
+    fill: currentColor; 
+}
+.type{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+.keymic {
+
+}
+.keyboard {
+
+}
+.microphone {
+
+}
+.buttons {
+
+}
+.button {
+
+}
+.button2 {
+
 }
