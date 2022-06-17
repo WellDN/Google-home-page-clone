@@ -163,4 +163,78 @@ img {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
+
+.keymic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.keyboard {
+  height: 19px;
+  width: 25px;
+}
+
+.keyb {
+  height: 6.5px;
+  width: 11.5px;
+  cursor: pointer;
+}
+
+.microphone {
+  width: 20px;
+  height: 14.5px;
+}
+
+.mic {
+  height: 11.5px;
+  cursor: pointer;
+}
+
+.buttons {
+  display: block;
+  padding-top: 18px;
+  height: 50px;
+  text-align: -webkit-center;
+}
+
+.button1 {
+  background-color: #303134;
+  font-size: 8px;
+  color: #e8eaed;
+  border-radius: 2px;
+  border: 6px solid #303134;
+  margin: 11px 4px;
+  padding: 0 3px;
+}
+
+.button2 {
+  background-color: #303134;
+  font-size: 8px;
+  color: #e8eaed;
+  border-radius: 2px;
+  border: 6px solid #303134;
+  margin: 11px 4px;
+  padding: 0 4px;
+}
+
+.contentblock {
+  display: block;
+  height: 212px;
+}
+
+.bottom {
+  background-color: #171717;
+  height: 55px;
+}
+
+.firstb {
+  color: #9aa0a6;
+  font-size: 8.5px;
+  padding: 9px 17px;
+  border-bottom: 1px solid #202124;
+}
 /*# sourceMappingURL=style.css.map */

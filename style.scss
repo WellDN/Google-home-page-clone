@@ -1,4 +1,7 @@
+$--colors-black-darker: #171717;
+$--colors-white-darker: #e8eaed;
 $--colors-grey-brighter: #9aa0a6;
+$--colors-grey-black: #303134;
 $--colors-grey-darker: rgb(68, 68, 68);
 $--colors-grey: #595c60;
 $--colors-black: #202124;
@@ -89,8 +92,6 @@ img {
     position: relative;
     margin-top: 21%;
 }
-//.gglogo {
-    
 .stackedlayout {
     min-height: 88px;
     padding-top: 11px;
@@ -119,20 +120,70 @@ img {
     flex-wrap: wrap;
 }
 .keymic {
-
+    display: flex;
+    align-items: center;
 }
 .keyboard {
-
+    height: 19px;
+    width: 25px;
+}
+.keyb {
+    height: 6.5px;
+    width: 11.5px;
+    cursor: pointer;
 }
 .microphone {
-
+    width: 20px;
+    height: 14.5px;
+}
+.mic {
+    height: 11.5px;
+    cursor: pointer;
 }
 .buttons {
-
+    display: block;
+    padding-top: 18px;
+    height: 50px;
+    text-align: -webkit-center;
 }
-.button {
-
+.button1 {
+    background-color: $--colors-grey-black;
+    font-size: 8px;
+    color: $--colors-white-darker;
+    border-radius: 2px;
+    border: 6px solid $--colors-grey-black;
+    margin: 11px 4px;
+    padding: 0 3px;
 }
 .button2 {
+    background-color: $--colors-grey-black;
+    font-size: 8px;
+    color: $--colors-white-darker;
+    border-radius: 2px;
+    border: 6px solid $--colors-grey-black;
+    margin: 11px 4px;
+    padding: 0 4px;
+}
+.contentblock {
+    display: block;
+    height: 212px;
+}
+.bottom {
+    background-color: $--colors-black-darker;
+    height: 55px;
+}
+.firstb {
+    color: $--colors-grey-brighter;
+    font-size: 8.5px;
+    padding: 9px 17px;
+    border-bottom: 1px solid $--colors-black;
+}
+.last {
+
+}
+.text {
+
+}
+.lastright {
 
 }
