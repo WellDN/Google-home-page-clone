@@ -100,10 +100,9 @@ img {
 }
 .searchbar {
     display: flex;
-    border: 1px solid $--colors-black-darker;
+    border: 1px solid $--colors-grey-darker;
     height: 27px;
     border-radius: 30px;
-    background-color: $--colors-grey-black;
 }
 .search {
     display: flex;
@@ -155,6 +154,7 @@ img {
     border: 6px solid $--colors-grey-black;
     margin: 11px 4px;
     padding: 0 3px;
+    cursor: pointer;
 }
 .button2 {
     background-color: $--colors-grey-black;
@@ -164,6 +164,7 @@ img {
     border: 6px solid $--colors-grey-black;
     margin: 11px 4px;
     padding: 0 4px;
+    cursor: pointer;
 }
 .contentblock {
     display: block;
@@ -181,8 +182,13 @@ img {
 }
 .lastall {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 0 20px;
+}
+@media only screen and (max-width:1200px) {
+    .lastall {
+        justify-content: space-evenly;
+    }
 }
 .last {
     height: 25px;

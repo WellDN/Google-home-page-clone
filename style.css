@@ -134,10 +134,9 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 1px solid #171717;
+  border: 1px solid #444444;
   height: 27px;
   border-radius: 30px;
-  background-color: #303134;
 }
 
 .search {
@@ -210,6 +209,7 @@ img {
   border: 6px solid #303134;
   margin: 11px 4px;
   padding: 0 3px;
+  cursor: pointer;
 }
 
 .button2 {
@@ -220,6 +220,7 @@ img {
   border: 6px solid #303134;
   margin: 11px 4px;
   padding: 0 4px;
+  cursor: pointer;
 }
 
 .contentblock {
@@ -243,10 +244,18 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 0 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .lastall {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
 }
 
 .last {
