@@ -100,9 +100,10 @@ img {
 }
 .searchbar {
     display: flex;
-    border: 1px solid $--colors-grey-darker;
+    border: 1px solid $--colors-black-darker;
     height: 27px;
     border-radius: 30px;
+    background-color: $--colors-grey-black;
 }
 .search {
     display: flex;
@@ -178,12 +179,24 @@ img {
     padding: 9px 17px;
     border-bottom: 1px solid $--colors-black;
 }
+.lastall {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 20px;
+}
 .last {
-
+    height: 25px;
+    display: flex;
+    justify-content: center;
 }
 .text {
-
+    font-size: 8px;
+    color: $--colors-grey-brighter;
+    padding: 8px;
+    padding-bottom: 10px;
 }
 .lastright {
-
+   height: 25px;
+   display: flex;
+   justify-items: center;
 }
