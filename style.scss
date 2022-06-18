@@ -33,6 +33,11 @@ img {
     align-items: center;
     padding: 6px;
 }
+@media (min-width: 35.5em) {
+    .header {
+        
+    }
+}
 .topgroup {
     font-size: 7px;
     width: 100%;
@@ -167,12 +172,14 @@ img {
     cursor: pointer;
 }
 .contentblock {
-    display: block;
-    height: 212px;
+    
+    //height
 }
-.bottom {
+.footer {
     background-color: $--colors-black-darker;
-    height: 55px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 .firstb {
     color: $--colors-grey-brighter;
@@ -191,7 +198,6 @@ img {
     }
 }
 .last {
-    height: 25px;
     display: flex;
     justify-content: center;
 }
@@ -202,7 +208,6 @@ img {
     padding-bottom: 10px;
 }
 .lastright {
-   height: 25px;
    display: flex;
    justify-items: center;
 }

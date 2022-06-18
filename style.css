@@ -223,14 +223,11 @@ img {
   cursor: pointer;
 }
 
-.contentblock {
-  display: block;
-  height: 212px;
-}
-
-.bottom {
+.footer {
   background-color: #171717;
-  height: 55px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .firstb {
@@ -259,7 +256,6 @@ img {
 }
 
 .last {
-  height: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -276,7 +272,6 @@ img {
 }
 
 .lastright {
-  height: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
