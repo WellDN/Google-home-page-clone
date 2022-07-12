@@ -33,11 +33,6 @@ img {
     align-items: center;
     padding: 6px;
 }
-@media (min-width: 35.5em) {
-    .header {
-        
-    }
-}
 .topgroup {
     font-size: 7px;
     width: 100%;
@@ -171,10 +166,10 @@ img {
     padding: 0 4px;
     cursor: pointer;
 }
-.contentblock {
+//.contentblock {
     
     //height
-}
+//}
 .footer {
     background-color: $--colors-black-darker;
     position: absolute;
