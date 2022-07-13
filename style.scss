@@ -23,6 +23,12 @@ div {
 img {
     height: 53px;
 }
+
+@media (min-width: 20em) {
+    body {
+
+    }
+}
 .layout {
     display: flex;
     flex-direction: column;
@@ -32,6 +38,12 @@ img {
     display: flex;
     align-items: center;
     padding: 6px;
+}
+@media (min-width: 20em) {
+    .header {
+        
+    }
+
 }
 .topgroup {
     font-size: 7px;
@@ -45,6 +57,11 @@ img {
     color: $--colors-white;
     width: 13%;
 }
+@media (max-width:20em) {
+    .textgroup {
+        width:auto;
+    }
+   }
 .gml {
     cursor: pointer;
     padding-left: 3px;
@@ -166,18 +183,17 @@ img {
     padding: 0 4px;
     cursor: pointer;
 }
-//.contentblock {
-    
-    //height
-//}
+//.contentblock {}
 .footer {
     background-color: $--colors-black-darker;
-    position: absolute;
     bottom: 0;
     width: 100%;
+    position: fixed;
+    display: grid;
 }
 .firstb {
     color: $--colors-grey-brighter;
+    background-color: $--colors-black-darker;
     font-size: 8.5px;
     padding: 9px 17px;
     border-bottom: 1px solid $--colors-black;
@@ -186,6 +202,7 @@ img {
     display: flex;
     justify-content: space-between;
     padding: 0 20px;
+    background-color: $--colors-black-darker;
 }
 @media only screen and (max-width:1200px) {
     .lastall {

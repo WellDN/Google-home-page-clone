@@ -61,6 +61,12 @@ img {
   width: 13%;
 }
 
+@media (max-width: 20em) {
+  .textgroup {
+    width: auto;
+  }
+}
+
 .gml {
   cursor: pointer;
   padding-left: 3px;
@@ -225,13 +231,16 @@ img {
 
 .footer {
   background-color: #171717;
-  position: absolute;
   bottom: 0;
   width: 100%;
+  position: fixed;
+  display: -ms-grid;
+  display: grid;
 }
 
 .firstb {
   color: #9aa0a6;
+  background-color: #171717;
   font-size: 8.5px;
   padding: 9px 17px;
   border-bottom: 1px solid #202124;
@@ -245,6 +254,7 @@ img {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 0 20px;
+  background-color: #171717;
 }
 
 @media only screen and (max-width: 1200px) {
