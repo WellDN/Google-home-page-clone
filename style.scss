@@ -23,10 +23,9 @@ div {
 img {
     height: 53px;
 }
-
-@media (min-width: 20em) {
-    body {
-
+@media(max-width: 20em) {
+    img {
+        height: 30px;
     }
 }
 .layout {
@@ -41,7 +40,7 @@ img {
 }
 @media (min-width: 20em) {
     .header {
-        
+        padding: 1px;
     }
 
 }
@@ -59,20 +58,33 @@ img {
 }
 @media (max-width:20em) {
     .textgroup {
-        width:auto;
+        width: auto;
+        font-size: 4px;
+        height: 5px;
     }
    }
 .gml {
     cursor: pointer;
-    padding-left: 3px;
+    padding-left: 3;
 }
 .imgs {
     cursor: pointer;
     padding-left: 9px;
 }
+@media(max-width: 20em) {
+    .imgs {
+        padding-right: 5px;
+        padding-left: 4px;
+    }
+}
 .topicons {
     display: inline-block;
     width: 10%;
+}
+@media(max-width: 20em) {
+    .topicons {
+        width: auto;
+    }
 }
 .square {
     padding: 5px;
@@ -80,15 +92,35 @@ img {
     padding-right: 8px;
     height: 20px;
 }
+    @media(max-width: 20em) {
+        .square {
+            height: 20px;
+            width: 10px;
+            padding-right: 9px;
+        }
+    }
 .squareicon {
     color: $--colors-white;
     fill: currentColor;
     cursor: pointer;
     height: 14px;
 }
+    @media(max-width: 20em) {
+        .squareicon {
+            width: 8px;
+            padding-top: 4px;
+        }
+    }
 .topicon {
     padding: 4px;
     display: inline-block;
+}
+@media (max-width: 20em) {
+    .topicon {
+        height: 25px;
+        display: inline-flex;
+        padding-bottom: 1px;
+    }
 }
 .wicon {
     width: 18px;
@@ -98,6 +130,12 @@ img {
     cursor: pointer;
     vertical-align: bottom;
 }
+    @media(max-width: 20em) {
+        .wicon {
+            width: 10.3px;
+            height: 10.3px;
+        }
+    }
 .middlelayout {
     display: flex;
     flex-direction: column;
@@ -109,11 +147,24 @@ img {
     position: relative;
     margin-top: 21%;
 }
+@media(max-width: 20em) {
+    .centraltitle {
+        margin-top: 20%
+    }
+}
 .stackedlayout {
     min-height: 88px;
     padding-top: 11px;
     margin-left: 115px;
     margin-right: 115px;
+}
+
+@media(max-width: 20em) {
+    .stackedlayout {
+        margin-left: 4rem;
+        margin-right: 4rem;
+        padding-top: 5px;
+    }
 }
 .searchbar {
     display: flex;
@@ -121,15 +172,32 @@ img {
     height: 27px;
     border-radius: 30px;
 }
+@media(max-width: 20em) {
+    .searchbar {
+        height: 0.938rem;
+        border: 1px solid $--colors-grey-black;
+    }
+}
 .search {
     display: flex;
     width: 30px;
     padding-left: 8px;
     padding-top: 6px;
 }
+@media(max-width: 20em) {
+    .search {
+        padding-top: 3px;
+        padding-left: 4px;
+    }
+}
 .searchicon {
     color: $--colors-grey-brighter;
     fill: currentColor; 
+}
+@media(max-width: 20em) {
+    .searchicon {
+        height: 11px;
+    }
 }
 .type{
     display: flex;

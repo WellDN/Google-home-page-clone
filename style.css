@@ -20,6 +20,12 @@ img {
   height: 53px;
 }
 
+@media (max-width: 20em) {
+  img {
+    height: 30px;
+  }
+}
+
 .layout {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -39,6 +45,12 @@ img {
       -ms-flex-align: center;
           align-items: center;
   padding: 6px;
+}
+
+@media (min-width: 20em) {
+  .header {
+    padding: 1px;
+  }
 }
 
 .topgroup {
@@ -64,12 +76,14 @@ img {
 @media (max-width: 20em) {
   .textgroup {
     width: auto;
+    font-size: 4px;
+    height: 5px;
   }
 }
 
 .gml {
   cursor: pointer;
-  padding-left: 3px;
+  padding-left: 3;
 }
 
 .imgs {
@@ -77,9 +91,22 @@ img {
   padding-left: 9px;
 }
 
+@media (max-width: 20em) {
+  .imgs {
+    padding-right: 5px;
+    padding-left: 4px;
+  }
+}
+
 .topicons {
   display: inline-block;
   width: 10%;
+}
+
+@media (max-width: 20em) {
+  .topicons {
+    width: auto;
+  }
 }
 
 .square {
@@ -89,6 +116,14 @@ img {
   height: 20px;
 }
 
+@media (max-width: 20em) {
+  .square {
+    height: 20px;
+    width: 10px;
+    padding-right: 9px;
+  }
+}
+
 .squareicon {
   color: white;
   fill: currentColor;
@@ -96,9 +131,26 @@ img {
   height: 14px;
 }
 
+@media (max-width: 20em) {
+  .squareicon {
+    width: 8px;
+    padding-top: 4px;
+  }
+}
+
 .topicon {
   padding: 4px;
   display: inline-block;
+}
+
+@media (max-width: 20em) {
+  .topicon {
+    height: 25px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    padding-bottom: 1px;
+  }
 }
 
 .wicon {
@@ -108,6 +160,13 @@ img {
   border: 0;
   cursor: pointer;
   vertical-align: bottom;
+}
+
+@media (max-width: 20em) {
+  .wicon {
+    width: 10.3px;
+    height: 10.3px;
+  }
 }
 
 .middlelayout {
@@ -129,11 +188,25 @@ img {
   margin-top: 21%;
 }
 
+@media (max-width: 20em) {
+  .centraltitle {
+    margin-top: 20%;
+  }
+}
+
 .stackedlayout {
   min-height: 88px;
   padding-top: 11px;
   margin-left: 115px;
   margin-right: 115px;
+}
+
+@media (max-width: 20em) {
+  .stackedlayout {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    padding-top: 5px;
+  }
 }
 
 .searchbar {
@@ -145,6 +218,13 @@ img {
   border-radius: 30px;
 }
 
+@media (max-width: 20em) {
+  .searchbar {
+    height: 0.938rem;
+    border: 1px solid #303134;
+  }
+}
+
 .search {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -154,9 +234,22 @@ img {
   padding-top: 6px;
 }
 
+@media (max-width: 20em) {
+  .search {
+    padding-top: 3px;
+    padding-left: 4px;
+  }
+}
+
 .searchicon {
   color: #9aa0a6;
   fill: currentColor;
+}
+
+@media (max-width: 20em) {
+  .searchicon {
+    height: 11px;
+  }
 }
 
 .type {
