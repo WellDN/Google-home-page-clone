@@ -26,6 +26,12 @@ img {
   }
 }
 
+@media (min-width: 48em) {
+  img {
+    height: 73px;
+  }
+}
+
 .layout {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -47,9 +53,15 @@ img {
   padding: 6px;
 }
 
-@media (min-width: 20em) {
+@media (max-width: 20em) {
   .header {
     padding: 1px;
+  }
+}
+
+@media (min-width: 48em) {
+  .header {
+    padding: 7px;
   }
 }
 
@@ -68,6 +80,12 @@ img {
   height: 19px;
 }
 
+@media (min-width: 48em) {
+  .topgroup {
+    height: 35px;
+  }
+}
+
 .textgroup {
   color: white;
   width: 13%;
@@ -78,6 +96,13 @@ img {
     width: auto;
     font-size: 4px;
     height: 5px;
+  }
+}
+
+@media (min-width: 48em) {
+  .textgroup {
+    font-size: 10px;
+    padding-left: 10px;
   }
 }
 
@@ -124,6 +149,14 @@ img {
   }
 }
 
+@media (min-width: 48em) {
+  .square {
+    height: 30px;
+    width: 35px;
+    padding: 6px;
+  }
+}
+
 .squareicon {
   color: white;
   fill: currentColor;
@@ -135,6 +168,14 @@ img {
   .squareicon {
     width: 8px;
     padding-top: 4px;
+  }
+}
+
+@media (min-width: 48em) {
+  .squareicon {
+    width: 22px;
+    height: 22px;
+    padding-bottom: 3px;
   }
 }
 
@@ -153,6 +194,12 @@ img {
   }
 }
 
+@media (min-width: 48em) {
+  .topicon {
+    padding: 6px;
+  }
+}
+
 .wicon {
   width: 18px;
   height: 18px;
@@ -166,6 +213,13 @@ img {
   .wicon {
     width: 10.3px;
     height: 10.3px;
+  }
+}
+
+@media (min-width: 48em) {
+  .wicon {
+    height: 25px;
+    width: 25px;
   }
 }
 
@@ -194,6 +248,12 @@ img {
   }
 }
 
+@media (min-width: 48em) {
+  .centraltitle {
+    margin-top: 6%;
+  }
+}
+
 .stackedlayout {
   min-height: 88px;
   padding-top: 11px;
@@ -206,6 +266,14 @@ img {
     margin-left: 4rem;
     margin-right: 4rem;
     padding-top: 5px;
+  }
+}
+
+@media (min-width: 48em) {
+  .stackedlayout {
+    margin-left: 9.70rem;
+    margin-right: 9.70rem;
+    padding-top: 18px;
   }
 }
 
@@ -225,6 +293,13 @@ img {
   }
 }
 
+@media (min-width: 48em) {
+  .searchbar {
+    height: 2.3rem;
+    border: 1px solid #595c60;
+  }
+}
+
 .search {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -241,6 +316,14 @@ img {
   }
 }
 
+@media (min-width: 48em) {
+  .search {
+    padding-top: 8px;
+    padding-left: 11px;
+    width: 60px;
+  }
+}
+
 .searchicon {
   color: #9aa0a6;
   fill: currentColor;
@@ -249,6 +332,12 @@ img {
 @media (max-width: 20em) {
   .searchicon {
     height: 11px;
+  }
+}
+
+@media (min-width: 48em) {
+  .searchicon {
+    height: 27px;
   }
 }
 
@@ -272,15 +361,55 @@ img {
           align-items: center;
 }
 
+@media (max-width: 20em) {
+  .keymic {
+    width: 1.60rem;
+    height: 0.520rem;
+  }
+}
+
+@media (min-width: 48em) {
+  .keymic {
+    width: 60px;
+  }
+}
+
 .keyboard {
   height: 19px;
   width: 25px;
+}
+
+@media (max-width: 20em) {
+  .keyboard {
+    height: 17px;
+  }
+}
+
+@media (min-width: 48em) {
+  .keyboard {
+    padding-right: 33px;
+    padding-top: 2px;
+  }
 }
 
 .keyb {
   height: 6.5px;
   width: 11.5px;
   cursor: pointer;
+}
+
+@media (max-width: 20em) {
+  .keyb {
+    height: 4px;
+    width: 6px;
+  }
+}
+
+@media (min-width: 48em) {
+  .keyb {
+    height: 9px;
+    width: 15px;
+  }
 }
 
 .microphone {
@@ -293,11 +422,36 @@ img {
   cursor: pointer;
 }
 
+@media (max-width: 20em) {
+  .mic {
+    height: 6.3px;
+    width: 4.5px;
+  }
+}
+
+@media (min-width: 48em) {
+  .mic {
+    height: 15px;
+  }
+}
+
 .buttons {
   display: block;
   padding-top: 18px;
   height: 50px;
   text-align: -webkit-center;
+}
+
+@media (max-width: 20em) {
+  .buttons {
+    padding-top: 4px;
+  }
+}
+
+@media (min-width: 48em) {
+  .buttons {
+    padding-top: 29px;
+  }
 }
 
 .button1 {
@@ -311,6 +465,22 @@ img {
   cursor: pointer;
 }
 
+@media (max-width: 20em) {
+  .button1 {
+    border: 3px solid #303134;
+    margin-right: 1px;
+    font-size: 4.5px;
+    padding: 0 2px;
+  }
+}
+
+@media (min-width: 48em) {
+  .button1 {
+    font-size: 11px;
+    border: 8px solid #303134;
+  }
+}
+
 .button2 {
   background-color: #303134;
   font-size: 8px;
@@ -320,6 +490,21 @@ img {
   margin: 11px 4px;
   padding: 0 4px;
   cursor: pointer;
+}
+
+@media (max-width: 20em) {
+  .button2 {
+    border: 3px solid #303134;
+    font-size: 4.5px;
+    padding: 0 2px;
+  }
+}
+
+@media (min-width: 48em) {
+  .button2 {
+    font-size: 11px;
+    border: 8px solid #303134;
+  }
 }
 
 .footer {
@@ -339,6 +524,21 @@ img {
   border-bottom: 1px solid #202124;
 }
 
+@media (max-width: 20em) {
+  .firstb {
+    padding: 4px 10px;
+    font-size: 4.8px;
+  }
+}
+
+@media (min-width: 48em) {
+  .firstb {
+    font-size: 13px;
+    padding: 10px 30px;
+    border-bottom: 1px solid #595c60;
+  }
+}
+
 .lastall {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -348,6 +548,13 @@ img {
           justify-content: space-between;
   padding: 0 20px;
   background-color: #171717;
+}
+
+@media (max-width: 20em) {
+  .lastall {
+    padding: 0 15px;
+    height: 1rem;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -372,6 +579,20 @@ img {
   color: #9aa0a6;
   padding: 8px;
   padding-bottom: 10px;
+}
+
+@media (max-width: 20em) {
+  .text {
+    font-size: 4.5px;
+    padding: 6px;
+  }
+}
+
+@media (min-width: 48em) {
+  .text {
+    font-size: 11px;
+    padding: 10px;
+  }
 }
 
 .lastright {
