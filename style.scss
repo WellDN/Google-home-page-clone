@@ -33,6 +33,11 @@ img {
             height: 73px;
         }
     }
+    @media (min-width: 64em) {
+        img {
+            height: 92px;
+        }
+    }
 .layout {
     display: flex;
     flex-direction: column;
@@ -47,11 +52,15 @@ img {
     .header {
         padding: 1px;
     }
-
 }
 @media (min-width: 48em) {
     .header {
         padding: 7px
+    }
+}
+@media (min-width: 64em) {
+    .header {
+        padding: 13px;
     }
 }
 .topgroup {
@@ -84,6 +93,12 @@ img {
         padding-left: 10px;
     }
    }
+   @media (min-width: 64em) {
+    .textgroup {
+        font-size: 13px;
+        padding-left: 16px;
+    }
+   }
 .gml {
     cursor: pointer;
     padding-left: 3;
@@ -98,6 +113,11 @@ img {
         padding-left: 4px;
     }
 }
+    @media (min-width: 64em) {
+        .imgs {
+            padding-left: 12px;
+        }
+    }
 .topicons {
     display: inline-block;
     width: 10%;
@@ -107,9 +127,9 @@ img {
         width: auto;
     }
 }
-    @media(min-width: 48em) {
+    @media (min-width: 64em) {
         .topicons {
-            
+            width: auto;
         }
     }
 .square {
@@ -132,6 +152,12 @@ img {
             padding: 6px;
         }
     }
+    @media (min-width: 64em) {
+        .square {
+            height: 30px;
+            padding-left: 11px;
+        }
+    }
 .squareicon {
     color: $--colors-white;
     fill: currentColor;
@@ -151,6 +177,12 @@ img {
             padding-bottom: 3px;
         }
     }
+    @media (min-width: 64em) {
+        .squareicon {
+            height: 27px;
+            width: 27px;
+        }
+    }
 .topicon {
     padding: 4px;
     display: inline-block;
@@ -165,6 +197,11 @@ img {
     @media(min-width: 48em) {
         .topicon {
             padding: 6px;
+        }
+    }
+    @media (min-width: 64em) {
+        .topicon {
+            padding-left: 20px;
         }
     }
 .wicon {
@@ -187,6 +224,12 @@ img {
             width: 25px;
         }
     }
+    @media (min-width: 64em) {
+        .wicon {
+            height: 32px;
+            width: 31px;
+        }
+    }
 .middlelayout {
     display: flex;
     flex-direction: column;
@@ -205,6 +248,11 @@ img {
     @media (min-width: 48em) {
         .centraltitle {
             margin-top: 6%;
+        }
+    }
+    @media (min-width: 64em) {
+        .centraltitle {
+            margin-top: 9.3%;
         }
     }
 .stackedlayout {
@@ -228,6 +276,13 @@ img {
             padding-top: 18px;
         }
     }
+    @media (min-width: 64em) {
+        .stackedlayout {
+            margin-left: 13.7rem;
+            margin-right: 13.7rem;
+            padding-top: 25px;
+        }
+    }
 .searchbar {
     display: flex;
     border: 1px solid $--colors-grey-darker;
@@ -244,6 +299,11 @@ img {
         .searchbar {
             height: 2.3rem;
             border: 1px solid $--colors-grey;
+        }
+    }
+    @media (min-width: 64em) {
+        .searchbar {
+            height: 2.9rem;
         }
     }
 .search {
@@ -265,6 +325,12 @@ img {
             width: 60px;
         }
     }
+    @media (min-width: 64em) {
+        .search {
+            padding-top: 12px;
+            padding-left: 14px;
+        }
+    }
 .searchicon {
     color: $--colors-grey-brighter;
     fill: currentColor; 
@@ -277,6 +343,11 @@ img {
     @media (min-width: 48em) {
         .searchicon {
             height: 27px;
+        }
+    }
+    @media (min-width: 64em) {
+        .searchicon {
+            height: 33px;
         }
     }
 .type{
@@ -299,6 +370,11 @@ img {
             width: 60px;
         }
     }
+    @media (min-width: 64em) {
+        .keymic {
+            width: 78px;
+        }
+    }
 .keyboard {
     height: 19px;
     width: 25px;
@@ -312,6 +388,11 @@ img {
         .keyboard {
             padding-right: 33px;
             padding-top: 2px;
+        }
+    }
+    @media (min-width: 64em) {
+        .keyboard {
+            padding-right: 42px;
         }
     }
 .keyb {
@@ -331,10 +412,21 @@ img {
             width: 15px;
         }
     }
+    @media (min-width: 64em) {
+        .keyb {
+            height: 11.5px;
+            width: 19.5px;
+        }
+    }
 .microphone {
     width: 20px;
     height: 14.5px;
 }
+    @media (min-width: 64em) {
+        .microphone {
+            padding-bottom: 20px;
+        }
+    }
 .mic {
     height: 11.5px;
     cursor: pointer;
@@ -348,6 +440,11 @@ img {
     @media (min-width: 48em) {
         .mic {
             height: 15px;
+        }
+    }
+    @media (min-width: 64em) {
+        .mic {
+            height: 20px;
         }
     }
 .buttons {
@@ -364,6 +461,11 @@ img {
     @media (min-width: 48em) {
         .buttons {
             padding-top: 29px;
+        }
+    }
+    @media (min-width: 64em) {
+        .buttons {
+            padding-top: 39px;
         }
     }
 .button1 {
@@ -390,6 +492,13 @@ img {
             border: 8px solid $--colors-grey-black;
         }
     }
+    @media (min-width: 64em) {
+        .button1 {
+            font-size: 14px;
+            border: 10px solid $--colors-grey-black;
+            margin-right: 12px;
+        }
+    }
 .button2 {
     background-color: $--colors-grey-black;
     font-size: 8px;
@@ -413,7 +522,12 @@ img {
             border: 8px solid $--colors-grey-black;
         }
     }
-//.contentblock {}
+    @media (min-width: 64em) {
+        .button2 {
+            font-size: 14px;
+            border: 10px solid $--colors-grey-black;
+        }
+    }
 .footer {
     background-color: $--colors-black-darker;
     bottom: 0;
@@ -441,6 +555,12 @@ img {
             border-bottom: 1px solid $--colors-grey;
         }
     }
+    @media (min-width: 64em) {
+        .firstb {
+            font-size: 15px;
+            padding: 15px 30px;
+        }
+    }
 .lastall {
     display: flex;
     justify-content: space-between;
@@ -453,11 +573,6 @@ img {
         height: 1rem;
     }
 }
-    @media (min-width: 48em) {
-        .lastall {
-
-        }
-    }
 @media only screen and (max-width:1200px) {
     .lastall {
         justify-content: space-evenly;
@@ -483,6 +598,12 @@ img {
         .text {
             font-size: 11px;
             padding: 10px;
+        }
+    }
+    @media (min-width: 64em) {
+        .text {
+            font-size: 14px;
+            padding: 15px;
         }
     }
 .lastright {
